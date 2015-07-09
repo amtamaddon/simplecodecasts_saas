@@ -1,8 +1,6 @@
-source 'https://rubygems.org'
+ruby '2.2.1' 
 
-group :development, :test do
-  gem 'sqlite3'
-end
+source 'https://rubygems.org'
 
 group :production do
   gem 'pg'
