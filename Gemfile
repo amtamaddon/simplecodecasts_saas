@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+ruby '2.2.1' 
 
+source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
@@ -11,8 +12,6 @@ group :production do
    gem 'pg'
    gem 'rails_12factor'
 end
-
-gem 'devise', '3.4.1'
 
 #Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -26,6 +25,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
+
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
